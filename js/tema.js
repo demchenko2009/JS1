@@ -33,7 +33,7 @@ console.log(userAge);
 
 // 3 Створити змінну з іменем isStudent і присвоїти їй значення true або false, залежно від того, чи є студентом. Вивести значення цієї змінної в консоль.
 
-const isStudent = 11>20;
+const isStudent = true;
 console.log(isStudent);
 
 
@@ -49,7 +49,7 @@ const myNumber = 33;
 console.log(typeof (myNumber));
 
 
-const numer = 33+10;
+const numer = myNumber+10;
 console.log(numer);
 
 // 6 Створити змінну з іменем myNull і присвоїти їй значення null. Вивести значення цієї змінної в консоль.
@@ -64,11 +64,12 @@ console.log( myNull);
 
 // 7 Створити скрипт який виводить спливаюче попередження "Увага! Дія може бути небезпечною." за допомогою alert(). Вивести повідомлення про те, що дія небезпечна та попросити користувача підтвердити дію за допомогою confirm() “Ви впевнені, що хочете продовжити?”. 
 
-const safety = alert ("Увага! Дія може бути небезпечною")
+const safety = alert ("Увага! Дія може бути небезпечною");
 
 console.log(safety );
 
-const save = confirm ("Ви впевнені, що хочете продовжити?")
+const save = confirm ("Ви впевнені, що хочете продовжити?");
+console.log(save);
 
 
 
@@ -76,12 +77,15 @@ const save = confirm ("Ви впевнені, що хочете продовжи
 // 8 Створити скрипт який виводить спливаюче вікно з запитом на введення імені користувача “Введіть своє ім’я” за допомогою prompt(). Результат зберегти в змінній userName. Після вивести alert з отриманим ім’ям. Також перевірити за допомогою typeof тип змінної userName при отриманні імен. 
 
 const yuorName = prompt ("Введіть своє ім’я");
-console.log(yuorName);
+console.log(typeof (yuorName));
+const deinName = alert ("Nazar");
+console.log(deinName);
+
 
 
 
 
 // 9 Створити скрипт який виводить спливаюче підтвердження за допомогою confirm() з питання “Ви дійсно хочете покинути сторінку?”. Результат зберегти в змінній userAnswer та вивести в консоль. Перевірити результат при натисканні ОК та CANCEL
 
-const yourCheked = confirm ("Ви дійсно хочете покинути сторінку?");
-console.log(yourCheked);
+const userAnswer = confirm ("Ви дійсно хочете покинути сторінку?");
+console.log(userAnswer);

@@ -76,13 +76,12 @@ console.log(save);
 
 // 8 Створити скрипт який виводить спливаюче вікно з запитом на введення імені користувача “Введіть своє ім’я” за допомогою prompt(). Результат зберегти в змінній userName. Після вивести alert з отриманим ім’ям. Також перевірити за допомогою typeof тип змінної userName при отриманні імен. 
 
-const yuorName = prompt ("Введіть своє ім’я");
-console.log(typeof (yuorName));
-const deinName = alert ("Nazar");
-console.log(deinName);
+const userNames = prompt ("Введіть своє ім’я");
+ alert ("Дякуемо вам "+ userNames);
+console.log(typeof(userNames));
 
-
-
+// const sea = alert ("спасибо " + userrName);
+// console.log(sea);
 
 
 // 9 Створити скрипт який виводить спливаюче підтвердження за допомогою confirm() з питання “Ви дійсно хочете покинути сторінку?”. Результат зберегти в змінній userAnswer та вивести в консоль. Перевірити результат при натисканні ОК та CANCEL

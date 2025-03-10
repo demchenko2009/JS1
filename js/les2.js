@@ -104,9 +104,10 @@ console.log(sqrtNumber);
 const integer = 42;
 const stringNumber = "256";
 const  convertedInt = Number(parseInt (stringNumber));
-const convertedString = toString( (integer));
+const convertedString = integer.toString();
 console.log(convertedInt);
 console.log(convertedString);
+console.log(typeof(convertedString));
 
 
 

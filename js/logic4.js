@@ -194,9 +194,9 @@ if (numerok > 10 && numerok < 20) {
 
 //  БУДЬЛАСКА НЕ ЗАНИЖАЙТЕ БАЛИ
 
-const Namess = prompt("ДЕБИЛ СЮДА ИМЯ");
-const mail = prompt("ДОЛБОЕБ ТУТ ПОЧТУ");
-const passwort = prompt(" Мистер Ушлепок Введіть пароль");
+const Namess = prompt("СЮДА ИМЯ");
+const mail = prompt("МИСТР ТУТ ПОЧТУ");
+const passwort = prompt(" Министр Введіть пароль");
 
 if (Namess.length >= 3 && mail.includes("@") && mail.includes(".") && passwort.length >= 6) {
 

@@ -416,13 +416,13 @@ let tauschen;
 
 switch (helfe) {
     case "+":
-        result = zahl1 + zahl2;
+        tauschen = zahl1 + zahl2;
         break;
     case "-":
-        result = zahl1 - zahl2;
+        tauschen = zahl1 - zahl2;
         break;
     case "*":
-        result = zahl1 * zahl2;
+        tauschen = zahl1 * zahl2;
         break;
     case "/":
         if (zahl2 === 0) {
@@ -437,7 +437,7 @@ switch (helfe) {
 
 }
 
-console.log(helfe);
+console.log(tauschen);
 
 
 
